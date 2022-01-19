@@ -134,8 +134,12 @@ function s(svg) {
                 tooltip: {
                     trigger: "item",
                     enterable: true,
+                    className: "echarts-tooltip",
                     formatter: function (params) {
-                        return `${params.value[0]},${params.value[1]}`;
+                        return `中心城<br />坐标：${params.value[0]},${params.value[1]}<br />未售`;
+                    },
+                    textStyle: {
+                        align: "left",
                     },
                 },
                 emphasis: {
