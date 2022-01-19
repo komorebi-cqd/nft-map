@@ -1,12 +1,12 @@
 <script setup>
 // This starter template is using Vue 3 <script setup> SFCs
 // Check out https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup
-import Maps from './components/Map4.vue'
-import Maps2 from './components/Map2.vue'
+import CenterCity from './components/CenterCity.vue'
+import WorldMap from './components/WorldMap.vue'
 </script>
 
 <template>
-  <Maps/>
+  <WorldMap/>
 </template>
 
 <style>

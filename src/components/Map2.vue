@@ -57,17 +57,17 @@ let option = {
     ],
 };
 
-// const loopArray = () => {
-//         let arr = [];
-//         for (let i = -19; i <= 19; i++) {
-//                 for (let j = -19; j <= 19; j--) {
-//                         arr.push([i,j,56])
-//                 }
-//         }
-//         return arr;
-// }
+const loopArray = () => {
+        let arr = [];
+        for (let i = -36; i <= 36; i++) {
+                for (let j = -36; j <= 36; j++) {
+                        arr.push([i,j,56])
+                }
+        }
+        return arr;
+}
 
-// console.dir(loopArray());
+console.dir(loopArray());
 
 onMounted(() => {
     myChart = echarts.init(chartDom2.value);
